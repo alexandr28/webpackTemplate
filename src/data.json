@@ -1,0 +1,33 @@
+{
+    "name": "Webpack",
+    "Links": [
+        [
+            "Webpack",
+            "index.html"
+        ],
+        [
+            "Vanilla JS",
+            "hello-vanilla.html"
+        ],
+        [
+            "React",
+            "hello-react-html"
+        ],
+        [
+            "Vue.js",
+            "hello-vue.html"
+        ],
+        [
+            "Tyscript",
+            "hello-typescript.html"
+        ],
+        [
+            "Handlebars",
+            "hello-hbs.html"
+        ],
+        [
+            "ToDoList",
+            "to-do.html"
+        ]
+    ]
+}

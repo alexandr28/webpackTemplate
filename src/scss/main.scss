@@ -1,0 +1,37 @@
+/*
+@font-face {
+    font: {
+        family: 'Chalet';
+        style: normal;
+        weight: normal;
+    }
+
+    src: url(./fonts/Chalet.eot);
+    src: url(./fonts/Chalet.eot?#iefix) format('embedded-opentype'),
+    url(./fonts/Chalet.ttf) format('woff'),
+    url(./fonts/Chalet.woff) format('truetype'),
+    url(./fonts/Chalet.svg#Chalet) format('svg');
+}*/
+
+
+html {
+    color: skyblue;
+
+    background: {
+        color: rgb(211, 199, 199);
+        repeate: repeat;
+        image: url('../img/webpack-cube.svg');
+        possition: center;
+        attachment: fixed;
+        size: 10%
+    }
+}
+
+#app {
+    margin: auto;
+    padding: 2em;
+    width: 80%;
+    min-height: 100vh;
+    text-align: center;
+    background-color: rgba($color:#59666e, $alpha:.9);
+}
