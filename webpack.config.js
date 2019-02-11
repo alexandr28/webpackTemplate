@@ -2,13 +2,16 @@ const HtmlWebpackPlugin = require("html-webpack-plugin"),
     MiniCssExtractPlugin = require("mini-css-extract-plugin"),
     CleanWebpackPlugin = require("clean-webpack-plugin"),
     autoprefixer = require("autoprefixer");
+const path = require("path");
+
 module.exports = {
     entry: {
-        script: './src/index.js',
+        app: './src/index.js',
         vanilla: './src/vanilla.js'
     },
     output: {
-        filename: '[name].[chunkhash].js'
+        path: path.resolve(__dirname + "/dist/public"),
+        filename: './js/[name].[chunkhash].js'
     },
     devtool: "source-map",
     module: {
@@ -64,13 +67,13 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(['public/**/*.*', 'dist/**/*.*']),
         new MiniCssExtractPlugin({
-            filename: "[name].[chunkhash].css",
+            filename: "css/[name].[chunkhash].css",
             chunkFilename: '[id].css'
         }),
         new HtmlWebpackPlugin({
             template: "./src/views/template.html",
             filename: "index.html",
-            chunks: ['script']
+            chunks: ['app']
         }),
         new HtmlWebpackPlugin({
             template: "./src/views/template.html",

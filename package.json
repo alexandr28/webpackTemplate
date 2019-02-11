@@ -1,14 +1,14 @@
 {
   "name": "project01",
   "version": "1.0.0",
-  "description": "workspace of webpack for work with Vanilla JS, React JS, Vue JS, Typescript y Sass",
+  "description": "workspace of webpack for work with Vanilla JSy Sass",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
-    "dev-default": "webpack --mode development",
-    "build-default": "webpack --mode production",
-    "dev": "webpack --mode development --output ./public/[name].js",
-    "build": "webpack --mode production --output ./public/[name].js",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "dev2": "webpack --mode development --output ./public/[name].js",
+    "build2": "webpack --mode production --output ./public/[name].js",
     "dev-babel": "webpack --mode development --module-bind js=babel-loader",
     "build-babel": "webpack --mode production --module-bind js=babel-loader"
   },

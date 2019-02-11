@@ -1,11 +1,6 @@
 import "./css/main.css";
 import "./scss/main.scss";
 import logo from "./img/webpack-logo.svg";
-/*
-import "./fonts/Chalet.eot";
-import "./fonts/Chalet.svg";
-import "./fonts/Chalet.ttf";
-import "./fonts/Chalet.woff";*/
 import data from "./data.json";
 
 console.log("hola  webpack");

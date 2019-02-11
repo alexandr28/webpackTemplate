@@ -1,6 +1,5 @@
-import "./css/main.css";
-import "./scss/main.scss";
-import logo from "./img/js-logo.png";
+import "./scss/vanilla.scss";
+import logo from "./img/webpack-cube.svg";
 /*
 import "./fonts/Chalet.eot";
 import "./fonts/Chalet.svg";
